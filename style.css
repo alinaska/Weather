@@ -1,0 +1,201 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+aside,
+nav,
+footer,
+header,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+main {
+	flex: 1 1 auto;
+}
+
+body,
+html {
+	height: 100%;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	background-color: transparent;
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+section{
+    background-color: grey;
+}
+.container{
+    margin: 0 auto;
+    max-width: 621px;
+    
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.weather {
+    border: 1px solid #000000;
+    
+}
+.list{
+    
+    background-color: #FFFFFF;
+    padding: 12px;
+}
+form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px solid #000000;
+    padding: 16px;
+  }
+  input {
+    width: 100%;
+     
+    outline: none;
+    display: inline-block;
+    
+  }
+  button {
+    display: inline-block;
+    border: none;
+    
+    cursor: pointer;
+  }
+  .fa-search:before {
+    content: "\f002";
+      
+  }
+  .fa-search{
+    font: normal normal normal 14px / 1 FontAwesome;
+  }
+   .fa-heart-o:before{
+    font-size: large;
+   }
+  .main_city{
+    display: flex;
+    justify-content: space-between;
+  }
+    
+  
+  .tabl{
+    display: flex;
+  }
+  .left{
+    border-right:1px solid #000000; 
+    width: 50%;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  h2{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 28px;
+  }
+  p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 24px;
+  }
+  .main_number{
+    font-size: 70px;
+  }
+  .main_number img{
+    width: 48px;
+  }
+  .main{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+       
+  }
+  .feels_like12{
+    
+    border-bottom: 1px solid #000000;
+    padding: 7px;
+  }
+  .feels_like12 img{
+    width: 35px;
+    height: 33.2px;
+  }
+  h3{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .time{
+    font-size: 18px;
+  }
+  .description{
+    display: flex;
+    justify-content: space-between;
+  }
+  .right{
+    width: 50%;
+  }
+  .added{
+    width: 100%;
+    padding: 16px;
+    border-bottom: 1px solid #000000;;
+  }
+  .cities{
+    
+    padding: 18px;
+  }
