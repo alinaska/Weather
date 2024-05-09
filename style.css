@@ -166,27 +166,30 @@ form {
     gap: 16px;
        
   }
-  .feels_like12{
+  .feels_like{
     
     border-bottom: 1px solid #000000;
     padding: 7px;
+    display: flex;
+  justify-content: space-between;
   }
-  .feels_like12 img{
+  .feels_like img{
     width: 35px;
     height: 33.2px;
+    align-self: end;
   }
   h3{
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 18px;
   }
+  .hour{
+    margin-bottom:12px;
+  }
   .time{
     font-size: 18px;
   }
-  .description{
-    display: flex;
-    justify-content: space-between;
-  }
+  
   .right{
     width: 50%;
   }
@@ -196,6 +199,11 @@ form {
     border-bottom: 1px solid #000000;;
   }
   .cities{
-    
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 24px;
     padding: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
   }
